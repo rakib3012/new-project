@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-image: url(img/img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1030px;
+     
+}
+.navbar{
+    width: 100%;
+
+}
+.logo {
+    float: left;
+    width: 350px;
+}
+ 
+.icon{
+    font-family: Arial,;
+    font-size: 35px;
+    margin-left: 198px;
+    color: #D7E8F6;
+    padding: 11px 0;
+    position: relative;
+}
+.L{
+    color: #ff7200;
+}
+.G{
+    color: #ff7200;
+}
+.logo h1::after{
+    position: absolute;
+    width: 115px;
+    left: -4px;
+    background: tomato;
+    content: "";
+    height: 2px;
+    top: 44px
+}
+/* .logo h1::before{
+    position: absolute;
+    width: 125px;
+    content: "";
+    left: -8px;
+    height: 2px;
+    top: 44px;
+    background: rgb(192, 120, 190);
+} */
+/* Menu-start */
+.menu{
+    margin-left: 180px;
+    margin-top: 10px;
+    float: left;
+    width: 600px;
+}
+.menu ul{
+    display: flex;
+}
+ .menu li{
+    list-style: none;
+    margin: 15px 0;
+ }
+ .menu  a{
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 62px;
+    text-decoration: none;
+    font-family: 'Courier New';
+ }
+ .menu  a:hover{
+      color: #d57653;
+      transition: .4s;
+ }
+  
+ .search-bar{
+    float: right;
+    width: 500px;
+    margin-right: 100px;
+    margin-top: 20px;
+
+ }
+ .search{
+    padding: 5px;
+    width: 230px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    border-right: none;
+    color: #fff;
+    height: 39px;
+    float: left;
+    font-size: 16px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+ }
+ .search:focus{
+     outline: none;
+ }
+ .search-bar .btn{
+    padding: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 2px solid #ff7200;
+    height: 39px;
+    background: #ff7200;
+    color: #fff;
+    font-size: 15px;
+    width: 100px
+ }
+ .btn:focus{
+     outline: none;
+ }
+  
+ 
+  
+ .content-part .content{
+     margin: 120px 195px;
+     color: #fff;
+ }
+ .content h1{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 50px;
+ }
+ .content p{
+    margin-top: 15px;
+    font-family: 'Courier New', monospace;
+    font-size: 23px;
+ }
+ .footer{
+     float: right;
+     margin-top: 340px;
+ }
+ .footer p{
+    color: rgb(238, 166, 11);
+    margin-right: 20px;
+    opacity: .5;
+ }
